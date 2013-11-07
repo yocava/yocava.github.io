@@ -1,25 +1,31 @@
 title:            Yocava
-description:      Describe your website here.
-logo:             site-logo.png
-disqus_shortname: 
+description:      油菜花科技
+logo:             site-logo@2x.png
+disqus_shortname: yocava
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://yocava.github.io
+url:              http://0.0.0.0:4000
+baseurl:          /
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           油菜花科技
+  company:        Yocava Ltd., Co.
+  avatar:         avatar_clark.png
+  email:          it@yocava.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         yocava
   stackexchange:  
   linkedin:       
   instagram:      
   flickr:         
   tumblr:         
+  weibo:          yocava
+  weixin:         yocava
+  dajie:          yocava
+  lagou:          yocava
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
 
@@ -32,24 +38,29 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
-  - title: Articles
+  - title: 首页
+    url: /
+  - title: 产品
+    url: /products
+  - title: 博客
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: 关于
+    url: /about
+  - title: 联系我们
+    url: /contact
+#  - title: Made Mistakes
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Chongqing
 future:      true
 pygments:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
+relative_permalinks: false
 
 kramdown:
   auto_ids: true
